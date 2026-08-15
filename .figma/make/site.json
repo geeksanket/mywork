@@ -1,0 +1,11 @@
+{
+  "title": "Sanket's Portfolio",
+  "description": "Create stunning, modern portfolio websites with smooth animations, tailored for individuals looking to showcase their work and attract opportunities.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
