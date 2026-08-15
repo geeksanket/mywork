@@ -326,7 +326,7 @@ export default function App() {
             <div key={p.id} className={`project-card reveal stagger-${i + 1}`} style={{ cursor: 'pointer' }}>
               <div style={{ aspectRatio: '4/3', position: 'relative', background: '#0f0d08', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                 <img
-                  src={kurukshetraLogo} alt="Project Kurukshetra logo"
+                  src="kurukshetra.png" alt="Project Kurukshetra logo"
                   style={{ width: '65%', height: '65%', objectFit: 'contain', display: 'block', transition: 'transform 0.6s ease', filter: 'drop-shadow(0 0 24px rgba(200,160,40,0.35))' }}
                   onMouseEnter={(e) => ((e.currentTarget as HTMLImageElement).style.transform = 'scale(1.06)')}
                   onMouseLeave={(e) => ((e.currentTarget as HTMLImageElement).style.transform = 'scale(1)')}
@@ -407,7 +407,7 @@ export default function App() {
         <div className="reveal-left" style={{ position: 'relative' }}>
           <div style={{ position: 'absolute', top: -24, left: -24, right: 24, bottom: 24, border: '1px solid #1f1f1f', pointerEvents: 'none' }} />
           <img
-            src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=600&h=700&fit=crop&auto=format"
+            src="f1.png"
             alt="Sanket working on code"
             style={{ width: '100%', aspectRatio: '5/6', objectFit: 'cover', display: 'block', filter: 'grayscale(20%)', position: 'relative', zIndex: 1 }}
           />
