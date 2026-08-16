@@ -1,5 +1,3 @@
-import kurukshetraLogo from "./imports/image.png"
-
 const skills = [
   "HTML & CSS",
   "JavaScript",
@@ -30,7 +28,7 @@ export default function App() {
       <main id="top">
         <section className="hero">
           <p className="eyebrow">Sanket Paradkar · Full-stack developer</p>
-          <h1>I build useful web software.</h1>
+          <h1>Full Stack Developer</h1>
           <p className="hero-copy">
             I am a Computer Science student based in India. I work with React, Node.js, Python, and databases to turn ideas into working products.
           </p>
@@ -48,9 +46,12 @@ export default function App() {
 
           <article className="project">
             <div className="project-preview" aria-label="Project Kurukshetra project preview">
-              <div className="preview-bar"><span>PROJECT KURUKSHETRA</span><span>2025</span></div>
+              <div className="preview-bar">
+                <span>PROJECT KURUKSHETRA</span>
+                <span>2025</span>
+              </div>
               <div className="preview-content">
-                <img src={kurukshetraLogo} alt="Project Kurukshetra logo" />
+                <img src="/kurukshetra.png" alt="Project Kurukshetra logo" />
                 <p>Team project</p>
               </div>
             </div>
@@ -58,7 +59,7 @@ export default function App() {
               <p className="eyebrow">Team project · Full stack</p>
               <h3>Project Kurukshetra</h3>
               <p>
-                I contribute to Project Kurukshetra, working with a team to build and ship product features from interface to API.
+                I contribute to Project Kurukshetra, working with a team to build useful web features.
               </p>
               <dl className="project-facts">
                 <div><dt>Role</dt><dd>Team member</dd></div>
