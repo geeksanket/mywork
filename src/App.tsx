@@ -27,7 +27,7 @@ export default function App() {
 
       <main id="top">
         <section className="hero">
-          <p className="eyebrow">Sanket Paradkar · Full-stack developer</p>
+          <p className="eyebrow">Sanket Paradkar - Full-stack developer</p>
           <h1>Full Stack Developer</h1>
           <p className="hero-copy">
             I am a Computer Science student based in India. I work with React, Node.js, Python, and databases to turn ideas into working products.
@@ -44,19 +44,9 @@ export default function App() {
             <h2>One project, shown clearly.</h2>
           </div>
 
-          <article className="project">
-            <div className="project-preview" aria-label="Project Kurukshetra project preview">
-              <div className="preview-bar">
-                <span>PROJECT KURUKSHETRA</span>
-                <span>2025</span>
-              </div>
-              <div className="preview-content">
-                <img src="/kurukshetra.png" alt="Project Kurukshetra logo" />
-                <p>Team project</p>
-              </div>
-            </div>
+          <article className="project project-text-only">
             <div className="project-details">
-              <p className="eyebrow">Team project · Full stack</p>
+              <p className="eyebrow">Team project - Full stack</p>
               <h3>Project Kurukshetra</h3>
               <p>
                 I contribute to Project Kurukshetra, working with a team to build useful web features.
@@ -102,7 +92,7 @@ export default function App() {
       </main>
 
       <footer className="site-footer">
-        <span>© 2025 Sanket Paradkar</span>
+        <span>(c) 2025 Sanket Paradkar</span>
         <span>Mordongri, India</span>
       </footer>
     </div>
