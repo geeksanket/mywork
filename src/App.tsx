@@ -29,7 +29,7 @@ export default function App() {
           <p className="eyebrow">Sanket Paradkar — Computer Science Student</p>
           <h1>From logic to interface.</h1>
           <p className="hero-copy">
-            I am a developer bridging computer science theory with practical execution. Based in Mordongri, I focus on designing clean database schemas, writing robust APIs, and building responsive React applications.
+            I am a developer bridging computer science theory with practical execution. I focus on designing clean database schemas, and building responsive React applications.
           </p>
           <div className="hero-actions">
             <a className="button" href="#work">View my code</a>
@@ -48,10 +48,9 @@ export default function App() {
               <p className="eyebrow">Team collaboration — Full stack</p>
               <h3>Project Kurukshetra</h3>
               <p>
-                A collaborative full-stack application. My role involves architecting backend endpoints, managing data flow, and building frontend features. It’s an ongoing exercise in writing maintainable code that other developers can actually read and build upon.
-              </p>
+                  A frontend-focused project built around creating a clean, responsive interface with thoughtful interactions and attention to visual detail.               </p>
               <dl className="project-facts">
-                <div><dt>Role</dt><dd>Full-stack Contributor</dd></div>
+                <div><dt>Role</dt><dd>Web Designer & Dev</dd></div>
                 <div><dt>Focus</dt><dd>Minimal & Classy Webpage Designing</dd></div>
                 <div><dt>Status</dt><dd>Active development</dd></div>
               </dl>
@@ -124,7 +123,7 @@ export default function App() {
 
       <footer className="site-footer">
         <span>&copy; 2026 Sanket Paradkar</span>
-        <span>Mordongri, India</span>
+        <span>Madhya Pradesh, India</span>
       </footer>
     </div>
   )
