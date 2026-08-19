@@ -55,7 +55,7 @@ export default function App() {
                 <div><dt>Focus</dt><dd>Minimal & Classy Webpage Designing</dd></div>
                 <div><dt>Status</dt><dd>Active development</dd></div>
               </dl>
-              <a className="text-link" href="https://github.com/geeksanket" target="_blank" rel="noopener noreferrer">Visit Page ↗</a>
+              <a className="text-link" href="https://github.com/geeksanket/websiteK" target="_blank" rel="noopener noreferrer">Visit Page ↗</a>
             </div>
           </article>
         </section>
