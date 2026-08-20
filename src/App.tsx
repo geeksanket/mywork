@@ -1,3 +1,16 @@
+import ChatBot from './components/ChatBot'
+
+async function testN8n() {
+  const response = await fetch("https://sankeyy.app.n8n.cloud/webhook-test/portfolio-ai", {
+    method: "POST",
+    body: JSON.stringify({
+  message: "hello from my website",
+}),
+  })
+
+  console.log(await response.text())
+}
+
 const skills = [
   "HTML & CSS",
   "JavaScript",
@@ -25,6 +38,10 @@ export default function App() {
       </header>
 
       <main id="top">
+        <button onClick={testN8n}>
+          Test AI Connection
+        </button>
+        
         <section className="hero">
           <p className="eyebrow">Sanket Paradkar — Computer Science Student</p>
           <h1>From logic to interface.</h1>
@@ -125,6 +142,9 @@ export default function App() {
         <span>&copy; 2026 Sanket Paradkar</span>
         <span>Madhya Pradesh, India</span>
       </footer>
+
+      {/* Chatbot Widget */}
+      <ChatBot />
     </div>
   )
 }
