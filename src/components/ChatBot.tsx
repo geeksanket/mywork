@@ -33,7 +33,7 @@ export default function ChatBot() {
     const [messages, setMessages] = useState<Message[]>([
         {
             id: '1',
-            text: 'Hello! I\'m here to help. What can I answer for you?',
+            text: 'Sup dawg, watt you doin\' here? Need some help? Go for it!!! ?',
             sender: 'bot',
             timestamp: new Date(),
         },
@@ -123,11 +123,11 @@ export default function ChatBot() {
             {isOpen && (
                 <div className="fixed bottom-20 right-4 w-80 h-[400px] bg-white rounded-xl shadow-lg flex flex-col z-50 animate-in slide-in-from-bottom-4 duration-200 border border-gray-100 overflow-hidden">
                     {/* Header */}
-                    <div className="bg-green-600 text-white px-4 py-3 flex justify-between items-center">
-                        <h3 className="font-medium text-sm">Assistant</h3>
+                    <div className="bg-[#5d8a62] text-white px-4 py-3 flex justify-between items-center">
+                        <h3 className="font-medium text-sm">Helper</h3>
                         <button
                             onClick={() => setIsOpen(false)}
-                            className="p-1 hover:bg-green-700 rounded transition-colors opacity-80 hover:opacity-100"
+                            className="p-1 hover:bg-black/10 rounded transition-colors"
                             aria-label="Close chat"
                         >
                             <XIcon />
@@ -144,14 +144,14 @@ export default function ChatBot() {
                             >
                                 <div
                                     className={`max-w-[85%] px-3 py-2 rounded-2xl ${message.sender === 'user'
-                                            ? 'bg-green-600 text-white rounded-br-sm'
+                                            ? 'bg-[#5d8a62] text-white rounded-br-sm'
                                             : 'bg-gray-100 text-gray-800 rounded-bl-sm'
                                         }`}
                                 >
                                     <p className="text-[14px] leading-relaxed">{message.text}</p>
                                     <span
                                         className={`text-[10px] mt-1 block ${message.sender === 'user'
-                                                ? 'text-green-100'
+                                                ? 'text-white/80'
                                                 : 'text-gray-400'
                                             }`}
                                     >
@@ -196,7 +196,7 @@ export default function ChatBot() {
                             <button
                                 type="submit"
                                 disabled={isLoading || !inputValue.trim()}
-                                className="bg-green-600 hover:bg-green-700 text-white p-2 rounded-full transition-colors disabled:bg-gray-300 disabled:cursor-not-allowed flex items-center justify-center"
+                                className="bg-[#5d8a62] hover:bg-[#47694b] text-white p-2 rounded-full transition-colors disabled:bg-gray-300 disabled:cursor-not-allowed flex items-center justify-center"
                                 aria-label="Send message"
                             >
                                 <SendIcon />
@@ -209,7 +209,7 @@ export default function ChatBot() {
             {/* Toggle Button */}
             <button
                 onClick={() => setIsOpen(!isOpen)}
-                className="fixed bottom-4 right-4 w-12 h-12 bg-green-600 text-white rounded-full shadow-md hover:shadow-lg hover:bg-green-700 transition-all duration-200 flex items-center justify-center z-50"
+                className="fixed bottom-4 right-4 w-12 h-12 bg-[#5d8a62] hover:bg-[#47694b] text-white rounded-full shadow-md transition-colors duration-200 flex items-center justify-center z-50"
                 aria-label={isOpen ? 'Close chat' : 'Open chat'}
             >
                 {isOpen ? <XIcon /> : <MessageCircleIcon />}
