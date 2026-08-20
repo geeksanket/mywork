@@ -1,3 +1,5 @@
+import ChatBot from './components/ChatBot'
+
 const skills = [
   "HTML & CSS",
   "JavaScript",
@@ -125,6 +127,8 @@ export default function App() {
         <span>&copy; 2026 Sanket Paradkar</span>
         <span>Madhya Pradesh, India</span>
       </footer>
+
+      <ChatBot />
     </div>
   )
 }
